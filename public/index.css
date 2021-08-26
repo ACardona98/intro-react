@@ -1,0 +1,26 @@
+.TodoCounter {
+    font-size: 24px;
+    text-align: center;
+}
+.Button-delete {
+    cursor:pointer;
+}
+.Button-delete:hover {
+    color:red;
+    display: inline-block;
+}
+
+.ModalBackground {
+    background-color: rgb(20,20,20,0.5);
+    color: white;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+}
